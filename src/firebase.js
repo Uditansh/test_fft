@@ -4,14 +4,14 @@ import { initializeApp } from 'firebase/app';
 import { getDatabase, ref, onValue } from 'firebase/database';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAI2iwJ7eKu86zqC0uSZNo_yMCtqZMUR1g",
-  authDomain: "random-data-43671.firebaseapp.com",
-  databaseURL: "https://random-data-43671-default-rtdb.firebaseio.com",
-  projectId: "random-data-43671",
-  storageBucket: "random-data-43671.appspot.com",
-  messagingSenderId: "286181256019",
-  appId: "1:286181256019:web:70136a7e2610b04fbecfa6",
-  measurementId: "G-BF756LJCGW"
+  apiKey: "AIzaSyAqPHhNS67MT5KN9Hbks-auAyAa277SqR8",
+  authDomain: "fir-test-a54fd.firebaseapp.com",
+  databaseURL: "https://fir-test-a54fd-default-rtdb.asia-southeast1.firebasedatabase.app",
+  projectId: "fir-test-a54fd",
+  storageBucket: "fir-test-a54fd.appspot.com",
+  messagingSenderId: "636326742951",
+  appId: "1:636326742951:web:6d8d5abf815dde888d0482",
+  measurementId: "G-HS048JNDEY"
 };
 
 const firebaseApp = initializeApp(firebaseConfig);
